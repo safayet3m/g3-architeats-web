@@ -94,40 +94,86 @@ nav {
 
 .Features {
     font-size: 35px;
+
 }
+
+.Features-love-enjoy-continar {
+    display: flex;
+    margin: 0 100px 0 100px;
+
+}
+
+.Features-love-enjoy-tital-header {
+    margin-left: 50px;
+
+
+}
+.Features-love-enjoy-heading{
+    border-left:10px solid #FF900E;
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 20px;
+}
+
+.Features-love-enjoy-img>img {
+    width: 600px;
+    height: 80%;
+    margin-left: 50px;
+   
+}
+
 
 /* mediya qurey */
 /* small devices */
 @media screen and (max-width:576px) {
+
     header,
     .Features-continar {
         padding: 20px;
     }
 
     nav,
-    .Features-continar {
+    .Features-continar,
+    .Features-love-enjoy-continar {
         flex-direction: column;
+    }
+    .Features-love-enjoy-continar{
+        margin: 0;
+        padding: 0;
     }
 
     .team-img {
         grid-template-columns: 1fr;
     }
 
-    .team-img > img{
+    .team-img>img {
         margin-bottom: 20px;
-    }  
+    }
+    .Features-love-enjoy-img>img{
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+
 }
 
-                    /* medium device */
+/* medium device */
 
 
 @media screen and (min-width:576px) and (max-width:992px) {
-    header{
+    header {
         padding: 20px;
 
     }
-    .Features-continar{
+    .Features-love-enjoy-continar{
+        margin: 0px;
+    }
+    .Features-love-enjoy-img>img{
+        width: 500px;
+    }
+
+    .Features-continar {
         flex-direction: column;
     }
-    
+
 }
