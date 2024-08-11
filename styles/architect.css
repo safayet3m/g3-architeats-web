@@ -100,6 +100,7 @@ nav {
 .Features-love-enjoy-continar {
     display: flex;
     margin: 0 100px 0 100px;
+    margin-bottom: 0px;
 
 }
 
@@ -107,9 +108,11 @@ nav {
     margin-left: 50px;
 
 
+
 }
-.Features-love-enjoy-heading{
-    border-left:10px solid #FF900E;
+
+.Features-love-enjoy-heading {
+    border-left: 10px solid #FF900E;
     font-size: 30px;
     font-weight: 700;
     padding-left: 20px;
@@ -119,9 +122,123 @@ nav {
     width: 600px;
     height: 80%;
     margin-left: 50px;
-   
+
 }
 
+.card-continar {
+    margin-bottom: 30px;
+    background: #f8f0f0;
+    border-radius: 5px;
+}
+
+.Facts {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 0px;
+}
+
+/* bage styels */
+.bage {
+    background-color: #FF900E;
+    width: 150px;
+    height: 80px;
+    padding: 30px 25px;
+    border-radius: 8px;
+    border: 0px;
+    color: #fff;
+    position: relative;
+    bottom: 100px;
+}
+
+.years {
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.Experience {
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+.Facts-contrinar {
+    margin-left: 140px;
+}
+
+.Facts-discription {
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 0px;
+}
+
+.Facts-icon-contaner {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: 80px;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-right: 130px;
+    gap: 50px;
+
+
+}
+
+.icons-box {
+    background-color: white;
+    border: 2px solid tomato;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.icons-num {
+    color: #424242;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.icons-descrption {
+    color: #727272;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.Sponspors-header {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.Sponspors-tital {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.Sponspors-descrption {
+    font-size: 13px;
+    font-weight: 400;
+    color: #727272;
+}
+
+.sponspors-img-contraner {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+
+}
+
+footer>p {
+    margin: 60px 140px 200px 120px;
+    border-radius: 8px;
+    background: #FFF4E7;
+    height: 50px;
+    text-align: center;
+   padding: 50px 20px 0px 20px;
+   border-radius: 8px;
+   
+}
 
 /* mediya qurey */
 /* small devices */
@@ -134,10 +251,28 @@ nav {
 
     nav,
     .Features-continar,
-    .Features-love-enjoy-continar {
+    .Features-love-enjoy-continar,
+    .Facts-icon-contaner,
+
+    .sponspors-img-contraner {
         flex-direction: column;
     }
-    .Features-love-enjoy-continar{
+
+    .sponspors-img-contraner {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .sponspors-img-contraner>img {
+        margin-bottom: 20px;
+    }
+
+    .Facts-contrinar,
+    .Facts-icon-contaner {
+        margin: 0px;
+    }
+
+    .Features-love-enjoy-continar {
         margin: 0;
         padding: 0;
     }
@@ -149,12 +284,24 @@ nav {
     .team-img>img {
         margin-bottom: 20px;
     }
-    .Features-love-enjoy-img>img{
-        width: 100%;
+
+    .Features-love-enjoy-img>img {
+        width: 90%;
         padding: 0px;
         margin: 0px;
+        margin-left: 20px;
     }
 
+    .bage {
+        bottom: 0px;
+        margin-bottom: 10px;
+        width: 80%;
+        text-align: center;
+
+    }
+    footer>p{
+        margin: 20px;
+    }
 }
 
 /* medium device */
@@ -165,10 +312,12 @@ nav {
         padding: 20px;
 
     }
-    .Features-love-enjoy-continar{
+
+    .Features-love-enjoy-continar {
         margin: 0px;
     }
-    .Features-love-enjoy-img>img{
+
+    .Features-love-enjoy-img>img {
         width: 500px;
     }
 
